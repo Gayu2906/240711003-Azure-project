@@ -1,0 +1,37 @@
+{% extends 'student/student_index.html' %}
+{% load static %}
+{% block title %}
+Dashboard
+{% endblock %}
+{% block main %}
+    <!-- BOF MAIN -->
+    <div class="main">
+
+        <!-- BOF Breadcrumb -->
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/student/library"><i class="ti-home"></i> Library</a></li>
+                </ol>
+            </div>
+        </div>
+        <!-- EOF Breadcrumb -->
+
+        <div class="row">
+            {% for library in libraries %}
+            <a class="col-md-3 col-sm-6" href="/student/library/{{library.name}}">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="number-left">
+                            <h6 class="bold">{{library.name}}</h6>
+                            <h3 class="card-title bold text-success"><i class=""></i>{{library.book_count}}</h3>
+                        </div>
+                        <div class="icon-right"><i class="ti-layout-accordion-list"></i></div>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    <!-- EOF MAIN -->
+{% endblock %}

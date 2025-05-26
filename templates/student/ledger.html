@@ -1,0 +1,118 @@
+{% extends 'student/student_index.html' %}
+{% load static %}
+{% block title %}
+Dashboard
+{% endblock %}
+{% block main %}
+    <!-- BOF MAIN -->
+    <div class="main">
+        <!-- BOF Breadcrumb -->
+        <div class="row">
+            <div class="col  d-flex justify-content-between">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/library"><i class="ti-home"></i> Library</a></li>
+                </ol>
+                <!-- <div>
+                    <a href="/edit-library/{{library_name}}/{{department_name}}/{{rack_name}}"><button type="button" class="btn btn-flat mb-1 btn-outline-info"><i class="fas fa-pencil-square-o"></i> Edit</button></a>
+                    <a href="/delete/{{library_name}}/{{department_name}}/{{rack_name}}"><button type="button" class="btn btn-flat mb-1 btn-outline-danger"><i class="ti-trash"></i> Delete</button></a>
+                </div> -->
+            </div>
+        </div>
+        <!-- EOF Breadcrumb -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <div class="caption uppercase">
+                            <i class="ti-briefcase"></i> Ledger of Books
+                        </div>
+                        <div class="tools">
+                            <button data-toggle="modal" data-target="#requestBookModal" aria-labelledby="requestBookModalTitle" class="btn btn-sm btn-primary"><i class="ti-file"></i> Request Book</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover init-datatable" id="">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th>ISBN</th>
+                                        <th>CheckOut Date</th>
+                                        <th>CheckIn Date</th>
+                                        <th>Approve Date</th>
+                                        <th>Rejecte Date</th>
+                                        <th>Check Out</th>
+                                        <th>Check In</th>
+                                        <th>Status</th>
+                                        <th>Overdue</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for log in ledger %}
+                                    <tr class="{% if log.is_approved %}bg-carolina text-white{% endif %}">
+                                        <td>{{ log.isbn }}</td>
+                                        <td>{{ log.checkout_date }}</td>
+                                        <td>{{ log.checkin_date }}</td>
+                                        <td>
+                                            {% if log.approved_date %}
+                                            {{ log.approved_date }}
+                                            {% elif log.is_rejected %}
+                                            <span class="badge badge-danger">Rejected</span>
+                                            {% elif log.is_pending %}
+                                            <span class="badge badge-warning">Pending</span>
+                                            {% endif %}
+                                        </td>
+                                        <td>
+                                            {% if log.rejected_date %}
+                                            {{ log.rejected_date }}
+                                            {% elif log.is_approved %}
+                                            <span class="badge badge-success">Approved</span>
+                                            {% elif log.is_pending %}
+                                            <span class="badge badge-warning">Pending</span>
+                                            {% endif %}
+                                        </td>
+                                        <td>
+                                            {% if log.is_checked_out %}
+                                            <span class="badge badge-success">Checked Out</span>
+                                            {% elif log.is_pending %}
+                                            <span class="badge badge-warning">Pending</span>
+                                            {% else %}
+                                            <span class="badge badge-danger">Not Checked Out</span>
+                                            {% endif %}
+                                        </td>
+                                        <td>
+                                            {% if log.is_checked_in %}
+                                            <span class="badge badge-success">Checked In</span>
+                                            {% elif log.is_pending %}
+                                            Waiting
+                                            {% endif %}
+                                        </td>
+                                        <td>
+                                            {% if log.is_approved %}
+                                            Approved
+                                            {% elif log.is_rejected %}
+                                            Rejected
+                                            {% elif log.is_pending %}
+                                            In Queue
+                                            {% else %}
+                                            No Status
+                                            {% endif %}
+                                        </td>
+                                        <td>
+                                            {% if log.is_overdue %}
+                                            <span class="badge badge-danger">Overdue</span>
+                                            {% else %}
+                                            <span class="badge badge-success">On Time</span>
+                                            {% endif %}
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- EOF MAIN -->
+{% endblock %}

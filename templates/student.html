@@ -1,0 +1,59 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block title %}
+Student Detail
+{% endblock %}
+{% block main %}
+    <!-- BOF MAIN -->
+    <div class="main">
+
+        <!-- BOF Breadcrumb -->
+        <div class="row">
+            <div class="col  d-flex justify-content-between">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/ledger"><i class="ti-home"></i> Ledger</a></li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- BOF Input Group -->
+        <div class="row d-flex justify-content-center align-items-center" style="min-height: 70vh;">
+            <div class="col-md-7" id="book-detail">
+                <div class="card mb-3 col-md-12">
+                    <div class="card-body">
+                        <div class="card-body" id="book-data">
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Username</span>
+                                </div>
+                                <span class="form-control" style="color: snow;">{{ username|capfirst }}</span>
+                            </div>
+
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Roll Number</span>
+                                </div>
+                                <span class="form-control" style="color: snow;">{{ roll_no }}</span>
+                            </div>
+
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Mobile Number</span>
+                                </div>
+                                <span class="form-control" style="color: snow;">{{ mobile_no }}</span>
+                            </div>
+
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Email</span>
+                                </div>
+                                <span class="form-control" style="color: snow;">{{ email }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- EOF MAIN -->
+{% endblock %}
