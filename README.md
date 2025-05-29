@@ -175,40 +175,28 @@ AZURE SERVICES USED
 
 
 
-      1 Azure App Service – Hosts the Django web application.
+     1 Azure App Service – Hosts the Django web application.
 
+     2 Azure Static Web Apps – Serves frontend assets (HTML, CSS, JS).
 
-      
-      2 Azure Static Web Apps – Serves frontend assets (HTML, CSS, JS).
+     3 Azure Monitor & Logs – Logs diagnostics and monitoring metrics.
 
-      
-      3 Azure Monitor & Logs – Logs diagnostics and monitoring metrics.
-
-      
-      4 GitHub Actions – Automates build and deployment workflow.
+     4 GitHub Actions – Automates build and deployment workflow.
 
  CORE FEATURES
 
- 
       1 User authentication (admin and member roles)
 
-      
       2 Book catalog (CRUD operations)
 
-      
       3 Issue/return tracking with history logs
 
-      
       4 Real-time search and filtering
 
-      
       5 Admin dashboard with metrics
 
-      
       6 Secured endpoints using Django middleware
 
-
-      
       7 Deployment pipeline with rollback support
 
 DEPLOYMENT WORKFLOW(CI/CD)
