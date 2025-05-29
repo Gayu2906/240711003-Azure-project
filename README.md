@@ -78,7 +78,8 @@ DEPLOYMENT WORKFLOW(CI/CD)
    SEQUENCE DIAGRAM 
   
   Illustrates the flow of issuing a book.
-  ![ChatGPT Image May 29, 2025, 01_46_28 PM](https://github.com/user-attachments/assets/1a16acdc-ae6f-486d-8afb-ae1fbf2cbcf5)
+
+  ![ChatGPT Image May 29, 2025, 01_46_28 PM](https://github.com/user-attachments/assets/59a88713-c809-463a-8124-047244f8c8da)
 
 
    ACTIVITY DIAGRAM
