@@ -1,14 +1,14 @@
-LIBRARY MANAGEMENT SYSTEM(LMS)
+**LIBRARY MANAGEMENT SYSTEM(LMS)**
 A scalable, cloud-based Library Management System built with Django (Python) for the backend and JavaScript for frontend interactivity. 
 This application is deployed using Microsoft Azure App Service and integrated with GitHub Actions for continuous deployment.
 
-PROJECT OVERVIEW 
+**PROJECT OVERVIEW **
 This web application allows users to manage a digital library system with features like
 book cataloging, user authentication, issuing/returning books, and activity tracking.
 It is designed to run on Azure cloud infrastructure with a focus on high availability, automation, 
 and observability.
 
-TECH STACK 
+**TECH STACK **
 
 
 
@@ -252,33 +252,33 @@ DEPLOYMENT WORKFLOW(CI/CD)
 
   ![ChatGPT Image May 29, 2025, 01_56_00 PM](https://github.com/user-attachments/assets/2b764ace-0fd4-49c8-ba84-475762719366)
 
-Architecture Diagram (Microservices)
+**Architecture Diagram (Microservices)**
 
 The system is designed using a Microservices Architecture, where each major functionality of the Library Management System is divided into independently deployable services.
 
  **Key Characteristics of Microservices**
  
-Independent Deployment: Each service can be deployed or updated without affecting others.
+**Independent Deployment**: Each service can be deployed or updated without affecting others.
 
-Technology Agnostic: Different services can use different programming languages or databases.
+**Technology Agnostic:** Different services can use different programming languages or databases.
 
-Scalability: You can scale only the high-traffic services like Book Catalog independently.
+**Scalability:** You can scale only the high-traffic services like Book Catalog independently.
 
-Resilience: Failures in one service (e.g., Notifications) don't bring down the whole system.
+**Resilience:** Failures in one service (e.g., Notifications) don't bring down the whole system.
 
-Maintainability: Smaller codebases are easier to maintain and test
+**Maintainability:** Smaller codebases are easier to maintain and test
 
-Why Microservices for Library Management System?
+**Why Microservices for Library Management System?**
 
-Modularity: A library system has well-defined modules (users, books, borrowing, etc.) which fit well into service boundaries.
+**Modularity:** A library system has well-defined modules (users, books, borrowing, etc.) which fit well into service boundaries.
 
-Team Autonomy: Teams can develop and deploy each service independently (ideal for projects with multiple contributors).
+**Team Autonomy: **Teams can develop and deploy each service independently (ideal for projects with multiple contributors).
 
-Future Scaling: Microservices allow scaling specific parts (like Book Search) without overloading others (like Authentication).
+**Future Scaling:** Microservices allow scaling specific parts (like Book Search) without overloading others (like Authentication).
 
-Continuous Delivery: Faster deployment cycles using GitHub Actions CI/CD pipelines.
+**Continuous Delivery**: Faster deployment cycles using GitHub Actions CI/CD pipelines.
 
-Business Model Canvas
+**Business Model Canvas**
 
 Key Partners - Azure, Email Gateway, Library Networks, GitHub
 
@@ -297,7 +297,18 @@ but possible via subscription or fine management
 
 Cost Structure -	Azure hosting, third-party APIs (e.g., for email/SMS)
 
+**SOLID Principles Applied
+**
 
+**S –  Single Responsibility Principle**	Each service handles only one responsibility. Example: BookService handles only book-related logic.
+
+****O –Open/Closed Principle**	**Easily extendable services using plug-ins or modules.
+
+**L – Liskov Substitution Principle**	Interfaces and abstract classes ensure substitutable modules for things like notifications (email/SMS).
+
+**I – Interface Segregation Principle**	Services expose only required interfaces via APIs.
+
+**D – Dependency Inversion Principle** High-level modules (API Gateway) depend on abstractions, not concrete services.
 
 
 
