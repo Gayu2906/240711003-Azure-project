@@ -112,7 +112,7 @@ The system is designed using a Microservices Architecture, where each major func
 
 **Maintainability:** Smaller codebases are easier to maintain and test
 
-![ChatGPT Image May 29, 2025, 04_57_53 PM](https://github.com/user-attachments/assets/102c662a-124e-4222-a6fc-31bdd1be65cf)
+![ChatGPT Image May 29, 2025, 05_24_42 PM](https://github.com/user-attachments/assets/225ca19c-9424-49ee-96f5-5c7c89394e4b)
 
 
 **Why Microservices for Library Management System?**
