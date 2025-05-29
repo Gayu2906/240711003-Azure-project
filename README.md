@@ -19,7 +19,7 @@ TECH STACK
 
 
 
-Layer	                          Technology
+Layer	                                                                            Technology
 
 
 
@@ -35,8 +35,9 @@ Layer	                          Technology
 
 
 
+ 
+Frontend	                                                                      HTML, CSS, JavaScript
 
-Frontend	                        HTML, CSS, JavaScript
 
 
 
@@ -53,8 +54,8 @@ Frontend	                        HTML, CSS, JavaScript
 
 
 
+Backend	                                                                      Django (Python)
 
-Backend	                         Django (Python)
 
 
 
@@ -75,8 +76,8 @@ Backend	                         Django (Python)
 
 
 
+Database                  	                                                SQLite / Azure Database (configurable)
 
-Database                  	      SQLite / Azure Database (configurable)
 
 
 
@@ -97,8 +98,8 @@ Database                  	      SQLite / Azure Database (configurable)
 
 
 
+Deployment                      	                                      Azure App Service
 
-Deployment                      	Azure App Service
 
 
 
@@ -117,8 +118,7 @@ Deployment                      	Azure App Service
 
 
 
-
-Static Hosting              	    Azure Static Web Apps (for static assets)
+Static Hosting              	                                     Azure Static Web Apps (for static assets)
 
 
 
