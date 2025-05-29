@@ -10,7 +10,7 @@ and observability.
 
 TECH STACK 
 
-![WhatsApp Image 2025-05-29 at 17 15 28_23bb60a1](https://github.com/user-attachments/assets/d5dab1ad-dd8b-49ca-8ad2-46de63a626b2)
+![WhatsApp Image 2025-05-29 at 17 15 28_23bb60a1](https://github.com/user-attachments/assets/024784cf-ff0f-482a-b7a8-260f6923d086)
 
 
 AZURE SERVICES USED 
