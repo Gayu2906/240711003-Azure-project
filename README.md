@@ -93,7 +93,7 @@ DEPLOYMENT WORKFLOW(CI/CD)
   
   Visualizes how components are deployed in Azure (App Service, GitHub, Static Web App).
 
-  ![ChatGPT Image May 29, 2025, 01_56_00 PM](https://github.com/user-attachments/assets/2b764ace-0fd4-49c8-ba84-475762719366)
+ ![ChatGPT Image May 29, 2025, 01_56_00 PM](https://github.com/user-attachments/assets/9cf05340-8c84-4770-9332-25fae8d232c3)
 
 **Architecture Diagram (Microservices)**
 
