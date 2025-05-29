@@ -222,7 +222,7 @@ DEPLOYMENT WORKFLOW(CI/CD)
    
    Shows the interactions between users (admin, member) and the system.
 
-  ![ChatGPT Image May 29, 2025, 01_27_59 PM png](https://github.com/user-attachments/assets/7f679c2c-1b2e-4008-b0e9-5282e8aaee63)
+ ![use_case_diagram_small png](https://github.com/user-attachments/assets/43e74947-826f-4009-90ac-57f0e6ef67c2)
 
 
     CLASS DIAGRAM 
