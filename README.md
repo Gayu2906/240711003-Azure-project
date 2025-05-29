@@ -10,6 +10,15 @@ and observability.
 
 TECH STACK 
 
+
+
+
+
+
+
+
+
+
 Layer	                          Technology
 Frontend	                        HTML, CSS, JavaScript
 Backend	                         Django (Python)
@@ -18,4 +27,10 @@ Deployment                      	Azure App Service
 Static Hosting              	    Azure Static Web Apps (for static assets)
 CI/CD Pipeline                  	GitHub Actions
 Monitoring                      	Azure Application Insights / Logs
+
+ 
+
+ 
+
+
 
