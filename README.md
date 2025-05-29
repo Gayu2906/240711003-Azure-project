@@ -18,13 +18,11 @@ TECH STACK
 
 
 
-
-Layer                                          	                                                                                                         Technology
-
+  Frontend	                                       	                                                                                                         Techn  (HTML, CSS, JavaScript)
 
 
-
-
+  Backend	     
+ (Django (Python))
 
 
 
@@ -36,7 +34,7 @@ Layer                                          	                                
 
 
  
-Frontend	                                                                                                           HTML, CSS, JavaScript
+                                                                                                       
 
 
 
