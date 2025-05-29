@@ -19,7 +19,7 @@ TECH STACK
 
 
 
-Layer	                                                                            Technology
+Layer	                                                                                                          Technology
 
 
 
@@ -36,7 +36,7 @@ Layer	                                                                          
 
 
  
-Frontend	                                                                      HTML, CSS, JavaScript
+Frontend	                                                                                                          HTML, CSS, JavaScript
 
 
 
@@ -54,7 +54,7 @@ Frontend	                                                                      H
 
 
 
-Backend	                                                                      Django (Python)
+Backend	                                                                                                            Django (Python)
 
 
 
@@ -75,8 +75,9 @@ Backend	                                                                      Dj
 
 
 
+ 
+Database                  	                                                                                       SQLite / Azure Database (configurable)
 
-Database                  	                                                SQLite / Azure Database (configurable)
 
 
 
@@ -97,8 +98,8 @@ Database                  	                                                SQLit
 
 
 
+Deployment                      	                                                                                 Azure App Service
 
-Deployment                      	                                      Azure App Service
 
 
 
@@ -117,8 +118,8 @@ Deployment                      	                                      Azure App
 
 
 
+Static Hosting              	                                                                                 Azure Static Web Apps (for static assets)
 
-Static Hosting              	                                     Azure Static Web Apps (for static assets)
 
 
 
@@ -142,8 +143,8 @@ Static Hosting              	                                     Azure Static W
 
 
 
+CI/CD Pipeline                  	                                                                           GitHub Actions
 
-CI/CD Pipeline                  	GitHub Actions
 
 
 
@@ -168,8 +169,7 @@ CI/CD Pipeline                  	GitHub Actions
 
 
 
-
-Monitoring                      	Azure Application Insights / Logs
+Monitoring                                                                                                 	Azure Application Insights / Logs
 
  
 
