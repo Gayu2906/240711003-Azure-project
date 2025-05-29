@@ -171,6 +171,27 @@ CI/CD Pipeline                  	                                               
 
 Monitoring                                                                                                 	Azure Application Insights / Logs
 
+AZURE SERVICES USED 
+      1 Azure App Service – Hosts the Django web application.
+      2 Azure Static Web Apps – Serves frontend assets (HTML, CSS, JS).
+      3 Azure Monitor & Logs – Logs diagnostics and monitoring metrics.
+      4 GitHub Actions – Automates build and deployment workflow.
+
+ CORE FEATURES
+      1 User authentication (admin and member roles)
+      2 Book catalog (CRUD operations)
+      3 Issue/return tracking with history logs
+      4 Real-time search and filtering
+      5 Admin dashboard with metrics
+      6 Secured endpoints using Django middleware
+      7 Deployment pipeline with rollback support
+
+DEPLOYMENT WORKFLOW(CI/CD)
+  1 This project uses GitHub Actions to automate the deployment process. The workflow:
+  2  Triggers on push to the main branch.
+  3 Installs dependencies and runs Django collectstatic.
+  4 Deploys to Azure App Service via publishing profile secrets.
+  5 Logs deployment success/failure.
  
 
  
