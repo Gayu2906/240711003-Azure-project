@@ -8,7 +8,7 @@ book cataloging, user authentication, issuing/returning books, and activity trac
 It is designed to run on Azure cloud infrastructure with a focus on high availability, automation, 
 and observability.
 
-**TECH STACK **
+TECH STACK 
 
 
 
@@ -297,8 +297,8 @@ but possible via subscription or fine management
 
 Cost Structure -	Azure hosting, third-party APIs (e.g., for email/SMS)
 
-**SOLID Principles Applied
-**
+**SOLID Principles Applied**
+
 
 **S –  Single Responsibility Principle**	Each service handles only one responsibility. Example: BookService handles only book-related logic.
 
