@@ -19,7 +19,7 @@ TECH STACK
 
 
 
-Layer	                                                                                                          Technology
+Layer                                          	                                                                                                         Technology
 
 
 
@@ -36,7 +36,7 @@ Layer	                                                                          
 
 
  
-Frontend	                                                                                                          HTML, CSS, JavaScript
+Frontend	                                                                                                           HTML, CSS, JavaScript
 
 
 
