@@ -2,7 +2,7 @@
 A scalable, cloud-based Library Management System built with Django (Python) for the backend and JavaScript for frontend interactivity. 
 This application is deployed using Microsoft Azure App Service and integrated with GitHub Actions for continuous deployment.
 
-**PROJECT OVERVIEW **
+PROJECT OVERVIEW 
 This web application allows users to manage a digital library system with features like
 book cataloging, user authentication, issuing/returning books, and activity tracking.
 It is designed to run on Azure cloud infrastructure with a focus on high availability, automation, 
