@@ -215,6 +215,37 @@ DEPLOYMENT WORKFLOW(CI/CD)
 
   
   5 Logs deployment success/failure.
+
+   UML  DIAGRAMS
+
+   USE CASE DIAGRAM 
+   
+   Shows the interactions between users (admin, member) and the system.
+
+   ![ChatGPT Image May  PM](https://github.com/user-attachments/assets/1faa745e-336f-4feb-9fea-7fb187a9809c)
+
+    CLASS DIAGRAM 
+   
+   Displays the data model (Book, User, IssueRecord, etc.).
+
+
+   SEQUENCE DIAGRAM 
+  
+  Illustrates the flow of issuing a book. 
+
+   ACTIVITY DIAGRAM
+  
+  Represents the user activity flow (e.g., login to book return).
+
+   DEPLOYMENT DIAGRAM 
+  
+  Visualizes how components are deployed in Azure (App Service, GitHub, Static Web App).
+
+
+
+
+ 
+
  
 
  
