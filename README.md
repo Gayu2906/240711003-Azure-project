@@ -256,7 +256,7 @@ Architecture Diagram (Microservices)
 
 The system is designed using a Microservices Architecture, where each major functionality of the Library Management System is divided into independently deployable services.
 
- Key Characteristics of Microservices
+ **Key Characteristics of Microservices**
  
 Independent Deployment: Each service can be deployed or updated without affecting others.
 
