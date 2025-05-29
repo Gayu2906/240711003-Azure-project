@@ -229,6 +229,9 @@ DEPLOYMENT WORKFLOW(CI/CD)
    
    Displays the data model (Book, User, IssueRecord, etc.).
 
+   ![class_diagram_half_size](https://github.com/user-attachments/assets/b7bcc3d5-6e9e-4e8e-92d7-e64579998ad2)
+
+
 
    SEQUENCE DIAGRAM 
   
