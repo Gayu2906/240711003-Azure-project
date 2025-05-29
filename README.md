@@ -10,7 +10,7 @@ and observability.
 
 TECH STACK 
 
-![ChatGPT Image May 29, 2025, 05_12_19 PM](https://github.com/user-attachments/assets/f92d1cb6-65d7-4fd7-bb6f-981917f8bc91)
+![WhatsApp Image 2025-05-29 at 17 15 28_23bb60a1](https://github.com/user-attachments/assets/d5dab1ad-dd8b-49ca-8ad2-46de63a626b2)
 
 
 AZURE SERVICES USED 
