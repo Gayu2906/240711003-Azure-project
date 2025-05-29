@@ -257,8 +257,6 @@ DEPLOYMENT WORKFLOW(CI/CD)
 The system is designed using a Microservices Architecture, where each major functionality of the Library Management System is divided into independently deployable services.
 
 
-![ChatGPT Image May 29, 2025, 04_39_59 PM](https://github.com/user-attachments/assets/08aba480-2d86-43a0-9441-cb504ee9de46)
-
  **Key Characteristics of Microservices**
  
 **Independent Deployment**: Each service can be deployed or updated without affecting others.
@@ -271,11 +269,14 @@ The system is designed using a Microservices Architecture, where each major func
 
 **Maintainability:** Smaller codebases are easier to maintain and test
 
+![ChatGPT Image May 29, 2025, 04_57_53 PM](https://github.com/user-attachments/assets/102c662a-124e-4222-a6fc-31bdd1be65cf)
+
+
 **Why Microservices for Library Management System?**
 
 **Modularity:** A library system has well-defined modules (users, books, borrowing, etc.) which fit well into service boundaries.
 
-**Team Autonomy: **Teams can develop and deploy each service independently (ideal for projects with multiple contributors).
+**Team Autonomy**:Teams can develop and deploy each service independently (ideal for projects with multiple contributors).
 
 **Future Scaling:** Microservices allow scaling specific parts (like Book Search) without overloading others (like Authentication).
 
