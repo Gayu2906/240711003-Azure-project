@@ -252,6 +252,54 @@ DEPLOYMENT WORKFLOW(CI/CD)
 
   ![ChatGPT Image May 29, 2025, 01_56_00 PM](https://github.com/user-attachments/assets/2b764ace-0fd4-49c8-ba84-475762719366)
 
+Architecture Diagram (Microservices)
+
+The system is designed using a Microservices Architecture, where each major functionality of the Library Management System is divided into independently deployable services.
+
+ Key Characteristics of Microservices
+ 
+Independent Deployment: Each service can be deployed or updated without affecting others.
+
+Technology Agnostic: Different services can use different programming languages or databases.
+
+Scalability: You can scale only the high-traffic services like Book Catalog independently.
+
+Resilience: Failures in one service (e.g., Notifications) don't bring down the whole system.
+
+Maintainability: Smaller codebases are easier to maintain and test
+
+Why Microservices for Library Management System?
+
+Modularity: A library system has well-defined modules (users, books, borrowing, etc.) which fit well into service boundaries.
+
+Team Autonomy: Teams can develop and deploy each service independently (ideal for projects with multiple contributors).
+
+Future Scaling: Microservices allow scaling specific parts (like Book Search) without overloading others (like Authentication).
+
+Continuous Delivery: Faster deployment cycles using GitHub Actions CI/CD pipelines.
+
+Business Model Canvas
+
+Key Partners - Azure, Email Gateway, Library Networks, GitHub
+
+key Activities - Book management, user engagement, issue/return tracking
+
+Value Proposition -	Streamlined digital library operations, reduced manual work, 24x7 access
+
+Customer Segments	- Students, Library Staff, Admins
+
+Channels -	Web Interface, Email Alerts
+
+Customer Relationships -	Automated interactions, Self-service
+
+Revenue Streams -	Not applicable for free academic projects, 
+but possible via subscription or fine management
+
+Cost Structure -	Azure hosting, third-party APIs (e.g., for email/SMS)
+
+
+
+
 
 
 
