@@ -71,7 +71,7 @@ DEPLOYMENT WORKFLOW(CI/CD)
    
    Displays the data model (Book, User, IssueRecord, etc.).
 
-   ![ChatGPT Image May 29, 2025, 01_42_20 PM](https://github.com/user-attachments/assets/8d00e88f-1a06-451d-aa1a-9696e38c17b1)
+  ![ChatGPT Image May 29, 2025, 01_42_20 PM](https://github.com/user-attachments/assets/e482a93a-7fc5-4ad7-96f3-dd4a71336be4)
 
    SEQUENCE DIAGRAM 
   
