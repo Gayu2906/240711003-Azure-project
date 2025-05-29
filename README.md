@@ -222,7 +222,7 @@ DEPLOYMENT WORKFLOW(CI/CD)
    
    Shows the interactions between users (admin, member) and the system.
 
- ![use_case_diagram_small png](https://github.com/user-attachments/assets/43e74947-826f-4009-90ac-57f0e6ef67c2)
+ ![use_case_diagram_half_size](https://github.com/user-attachments/assets/c5d94732-85d9-479a-960a-1fab57587217)
 
 
     CLASS DIAGRAM 
