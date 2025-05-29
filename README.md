@@ -243,6 +243,9 @@ DEPLOYMENT WORKFLOW(CI/CD)
   
   Represents the user activity flow (e.g., login to book return).
 
+  ![activity_diagram_half_size](https://github.com/user-attachments/assets/caf3794b-eb61-42ef-b487-9db5b20dac3b)
+
+
    DEPLOYMENT DIAGRAM 
   
   Visualizes how components are deployed in Azure (App Service, GitHub, Static Web App).
