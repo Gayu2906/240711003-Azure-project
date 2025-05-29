@@ -256,11 +256,14 @@ DEPLOYMENT WORKFLOW(CI/CD)
 
 The system is designed using a Microservices Architecture, where each major functionality of the Library Management System is divided into independently deployable services.
 
+
+![ChatGPT Image May 29, 2025, 04_39_59 PM](https://github.com/user-attachments/assets/08aba480-2d86-43a0-9441-cb504ee9de46)
+
  **Key Characteristics of Microservices**
  
 **Independent Deployment**: Each service can be deployed or updated without affecting others.
 
-**Technology Agnostic:** Different services can use different programming languages or databases.
+**Technology Agnostic**: Different services can use different programming languages or databases.
 
 **Scalability:** You can scale only the high-traffic services like Book Catalog independently.
 
@@ -296,6 +299,9 @@ Revenue Streams -	Not applicable for free academic projects,
 but possible via subscription or fine management
 
 Cost Structure -	Azure hosting, third-party APIs (e.g., for email/SMS)
+
+![ChatGPT Image May 29, 2025, 04_45_29 PM](https://github.com/user-attachments/assets/7b9855de-691d-4533-a891-449b66aac7c3)
+
 
 **SOLID Principles Applied**
 
