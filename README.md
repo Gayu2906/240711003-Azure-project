@@ -86,7 +86,7 @@ DEPLOYMENT WORKFLOW(CI/CD)
   
   Represents the user activity flow (e.g., login to book return).
 
-  ![activity_diagram_half_size](https://github.com/user-attachments/assets/caf3794b-eb61-42ef-b487-9db5b20dac3b)
+  ![activity_diagram_half_size](https://github.com/user-attachments/assets/beff46fb-9c8e-4c6b-8624-8274be514b84)
 
 
    DEPLOYMENT DIAGRAM 
