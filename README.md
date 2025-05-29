@@ -144,7 +144,7 @@ but possible via subscription or fine management
 
 Cost Structure -	Azure hosting, third-party APIs (e.g., for email/SMS)
 
-![ChatGPT Image May 29, 2025, 04_45_29 PM](https://github.com/user-attachments/assets/7b9855de-691d-4533-a891-449b66aac7c3)
+![ChatGPT Image May 29, 2025, 05_26_08 PM](https://github.com/user-attachments/assets/8c007865-0b20-4743-b5df-04407a0bbb4a)
 
 
 **SOLID Principles Applied**
